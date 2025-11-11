@@ -1,3 +1,16 @@
-.env 
-.env 
-.env 
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore .env files (common for secret keys)
+.env
+
+# Ignore all log files
+*.log
+
+# Ignore build output
+build/
+dist/
+
+# Ignore VSCode and other OS files
+.vscode/
+.DS_Store
