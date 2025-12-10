@@ -17,8 +17,7 @@ const BlogList = () => {
               <button onClick={()=> setMenu(item)}
                className={`cursor-pointer text-gray-600 ${menu === item && 'text-white px-4 pt-0.5'}`}>
                 {item}
-                {menu === item && (<motion.div layoutId='underline' 
-                transition={{type:'spring', stiffness: 500, damping:30}}
+                {menu === item && (<motion.div layoutId='underline' transition={{type:'spring', stiffness: 500, damping:30}}
                  className='absolute left-0 right-0 top-0 h-7 -z-1 bg-blue-600 rounded-full'></motion.div>)}
               </button>
             </div>
